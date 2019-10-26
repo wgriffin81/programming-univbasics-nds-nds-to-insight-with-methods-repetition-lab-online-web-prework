@@ -48,7 +48,7 @@ def total_gross(source)
   # return the total
   dir_earnings = directors_totals(source)
   dir_names = list_of_directors(source)
-  i = 1
+  i = 0
 
   total = 0
 
