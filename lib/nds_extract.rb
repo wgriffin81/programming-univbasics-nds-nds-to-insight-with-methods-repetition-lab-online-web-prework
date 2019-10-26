@@ -53,8 +53,8 @@ def total_gross(source)
   dir_names = list_of_directors(source)
   
   while index < dir_names.length do 
-    dir_names = dir_names[index]
-    total += dir_earnings(dir_names)
+    dir_name = dir_names[index]
+    total += dir_earnings(dir_name)
     index += 1 
   end
   
